@@ -1,0 +1,9 @@
+--------------- Build Started: 02/28/2024 09:15:32 Project: day_3_reaction_game, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -mthumb -I.\source\bsw -I.\source\asw -I. -IGenerated_Source\PSoC5 -Wa,-alh=.\CortexM3\ARM_GCC_541\Debug/game.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c source\asw\game.c -o .\CortexM3\ARM_GCC_541\Debug\game.o
+In file included from .\source\bsw/seven.h:79:0,
+                 from source\asw\game.c:23:
+.\source\bsw/global.h:50:22: fatal error: derivate.h: No such file or directory
+compilation terminated.
+The command 'arm-none-eabi-gcc.exe' failed with exit code '1'.
+--------------- Build Failed: 02/28/2024 09:15:32 ---------------
